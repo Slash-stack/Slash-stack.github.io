@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6, strong{
 p, li, span, label, input, textarea{
 	color: var(--secondaryText);
 	font-family: 'Roboto Mono', monospace;
+	text-align:justify;
 }
 
 a{
@@ -374,6 +375,10 @@ h6 { font-size: 16px;}
 	gap:20px;
 	justify-content: center;
 	padding-bottom: 50px;
+}
+
+.post-container{
+	background-color: #15202B;
 }
 
 .post{
